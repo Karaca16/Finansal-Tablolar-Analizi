@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataBase1">
+  <DataContextMoniker Name="/DataBase1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="c0cd434e-b4ca-4800-8b83-609f1eaebaa0" isExpanded="false" absoluteBounds="5.75, 1, 2, 0.45">
+      <DataClassMoniker Name="/DataBase1DataContext/UVYK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b89564da-995e-438d-9885-a4a6ef7e874c" absoluteBounds="5.7650000000000006, 1.46, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6989f93f-df23-4319-ac16-897809d60a08" isExpanded="false" absoluteBounds="2.75, 1, 2, 0.45">
+      <DataClassMoniker Name="/DataBase1DataContext/DuranVarlik" />
+      <nestedChildShapes>
+        <elementListCompartment Id="41cbffba-02b3-487d-bc4b-3eb28d0d40d0" absoluteBounds="2.7650000000000006, 1.46, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="09cd7f75-4e18-4643-9e2a-e705a5ca2de8" isExpanded="false" absoluteBounds="2.75, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/DataBase1DataContext/DonenVarlik" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0ab571a2-96c4-4bb4-b460-7fede48842bf" absoluteBounds="2.7650000000000006, 0.96, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="678a892d-1d0c-4f1d-ad95-95151ea7191a" isExpanded="false" absoluteBounds="4.625, 2.5, 2, 0.45">
+      <DataClassMoniker Name="/DataBase1DataContext/AktifPasif" />
+      <nestedChildShapes>
+        <elementListCompartment Id="39cdb988-68b9-4743-813c-2f82366e4b5c" absoluteBounds="4.6400000000000006, 2.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="abadbbfa-3d0f-4a65-b33d-73c124441a92" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/DataBase1DataContext/Kullanici" />
+      <nestedChildShapes>
+        <elementListCompartment Id="42b064be-0def-4c71-9108-203cce2df168" absoluteBounds="0.51500000000000057, 0.96, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b01295e9-3e76-4ab4-9856-9ea537a8f4a8" isExpanded="false" absoluteBounds="5.75, 1.5, 2, 0.45">
+      <DataClassMoniker Name="/DataBase1DataContext/Ozkaynak" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c7a37071-d9a2-40fa-befd-9c5895d3152c" absoluteBounds="5.7650000000000006, 1.96, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7720cb28-83ef-4115-8cb6-cd6c63fb00b8" isExpanded="false" absoluteBounds="5.75, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/DataBase1DataContext/KVYK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ca2036dd-2f41-464b-9eee-fba79c917623" absoluteBounds="5.765, 0.96, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

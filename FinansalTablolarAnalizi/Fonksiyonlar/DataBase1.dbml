@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Finans" Class="DataBase1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=IBRAHIM-KARACA\MSSQLSERVER01;Initial Catalog=Finans;Integrated Security=True" SettingsObjectName="FinansalTablolarAnalizi.Properties.Settings" SettingsPropertyName="FinansConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.UVYK" Member="UVYKs">
+    <Type Name="UVYK">
+      <Column Name="uvyk_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="mevduatlar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="finansal_borclar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="factoring_borclar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="sigorta_karsiligi" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="dfinansal_yukumluluk" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="ticari_borclar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="alinan_avanslar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="bloke_hesaplar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="iliskili_borclar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="alinan_krediler" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="borcgider_karsiligi" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="ertelenmis_gelirler" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="pozitif_negatif" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="duzun_borclar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="sirket_adi" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="uvyk_toplami" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="kayit_adi" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DuranVarlik" Member="DuranVarliks">
+    <Type Name="DuranVarlik">
+      <Column Name="duran_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="menkul_kiymetler" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="krediler_avanslar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="factoring_alacaklar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="uvadeli_ticarialacak" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="fkiralama_alacak" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="türev_enstrümanlar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="finansal_yatirim" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="canli_varliklar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="stoklar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="mduran_varliklar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="molmayan_duranvarlik" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="finansal_duranvarlik" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="pesinodenmis_giderler" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="pozitif_negatif" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="sirket_adi" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="duranvarlik_toplami" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="kayit_adi" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="dduran_varliklar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DonenVarlik" Member="DonenVarliks">
+    <Type Name="DonenVarlik">
+      <Column Name="donen_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="hazir_degerler" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="finansal_yatirimlar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="menkul_kiymetler" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="krediler_avanslar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="kisavadeli_alacaklar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="finansalkiralama_alacaklar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="dkisavadeli_alacaklar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="stoklar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="ddönen_varliklar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="türev_enstrümanlar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="pesinodenmis_giderler" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="canli_varliklar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="donenvarlik_toplami" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="sirket_adi" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="kayit_tarihi" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="kayit_adi" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AktifPasif" Member="AktifPasifs">
+    <Type Name="AktifPasif">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="aktif_toplam" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="pasif_toplam" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="sirket_adi" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="kayit_adi" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Kullanici" Member="Kullanicis">
+    <Type Name="Kullanici">
+      <Column Name="user_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="user_name" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="last_name" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="security_question" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="company" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="company_type" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="business_type" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Ozkaynak" Member="Ozkaynaks">
+    <Type Name="Ozkaynak">
+      <Column Name="ozkaynak_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sermaye" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="odenmeyen_sermaye" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="sermaye_avansi" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="sermaye_yedekleri" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="katki_sermaye" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="emisyon_primi" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="yeniden_degerleme" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="kar_yedekleri" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="dagilmamis_sermaye" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="netdonem_kari" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="zarartelafi_fonu" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="gecmisyil_kar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="gecmisyil_zarar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="yatirim_tesfikleri" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="sirket_adi" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ozkaynak_toplami" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="netdonem_zarari" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="kayit_adi" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="iodenmis_sermaye" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KVYK" Member="KVYKs">
+    <Type Name="KVYK">
+      <Column Name="kvyk_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="finansal_borclar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="mevduat" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="turev_araclar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="bloke_hesaplar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="factoring_borclar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="sigorta_karsiligi" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="dfinansal_yukumluluk" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="borcgider_karsiligi" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="ticari_borclar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="iliskili_borclar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="alinan_krediler" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="diger_borclar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="alinan_avanslar" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="ertelenmis_gelirler" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="sirket_adi" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="kvyk_toplami" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="kayit_adi" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
